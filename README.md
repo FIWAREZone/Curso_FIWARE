@@ -20,9 +20,8 @@ En esta sección repasaremos como instalar y configurar los programas necesarios
 
 ## Instalación de Postman
 
-Para hacer pruebas con la API de FIWARE será necesario disponer de una herramienta que permita hacer peticiones HTTP e interactuar con esta. En este caso, nosotros recomendamos la herramienta Postman, que permite gestionar las colecciones de peticiones, por lo que será muy sencillo realizar las operaciones necesarias con la colección predefinida que podreis descargar en este mismo repositorio.
+Para hacer pruebas con la API de FIWARE será necesario disponer de una herramienta que permita hacer peticiones HTTP e interactuar con ésta. En este caso, nosotros recomendamos la herramienta Postman, que permite gestionar las colecciones de peticiones, por lo que será muy sencillo realizar las operaciones necesarias con la colección predefinida que podréis descargar en este mismo repositorio.
 
-[https://www.getpostman.com](https://www.getpostman.com)
+[Descargar](https://www.getpostman.com)
 
-Además también será necesario descargar los ficheros de colección y variables de entorno (ficheros .json) que se encuentran dentro de la carpeta postman de este mismo repositorio.
-
+[Configuración de postmam](https://github.com/FIWAREZone/IoT_Course/tree/master/postman)
