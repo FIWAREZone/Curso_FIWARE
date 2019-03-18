@@ -1,27 +1,39 @@
+# Postman
+Colección de peticiones y variables de entorno
+
 # Introducción
 
-Para hacer pruebas con la API de FIWARE será necesario disponer de una herramienta que permita hacer peticiones HTTP e interactuar con esta. En este caso, recomendamos la herramienta Postman, que permite gestionar las colecciones de peticiones, por lo que será muy sencillo realizar las operaciones necesarias.
+Para hacer pruebas con la API de FIWARE será necesario disponer de una herramienta que permita hacer peticiones HTTP e interactuar con ésta. En este caso, recomendamos la herramienta Postman ya que permite gestionar y configurar de forma sencilla una colección de peticiones, por lo que será muy sencillo realizar las operaciones necesarias.
 
-Postman permite definir un catálogo de peticiones ([Collection](Collection.postman_collection.json)) y un fichero con variables donde almacenar los datos típicos del entorno donde realizar las pruebas ([Environment](Enviroment.postman_environment.json)). Estos ficheros se pueden exportar e importar para facilitar el uso por otras personas. 
+Postman nos permite definir un catálogo de peticiones ([Collection](FIWARE%20Zone%20Course.postman_collection.json)) y variables de entorno ([Environment](FIWARE%20Zone%20Course%20Enviroment%20Template.postman_environment.json)) que, posteriormente, podemos exportar e importar para compartirlas con otras personas. 
 
-## Instalación y configuración de Postman
+# Instalación y configuración de Postman
 
-1. Descargar [Postman](https://www.getpostman.com/) e instalar
+1. Descargar [Postman](https://www.getpostman.com/) e instalar.
 
-2. Descargar los ficheros de  [colección](Collection.postman_collection.json) y [entorno](Enviroment.postman_environment.json) del curso y extraerlos. Para descargar, hacer click [aquí](https://github.com/FIWAREZone/Curso_FIWARE/blob/master/postman/postman.zip?raw=true)
-5. Abrir Postman
+2. Descargar el [Collection](FIWARE%20Zone%20Course.postman_collection.json) de peticiones que se van a utilizar en la práctica. [Descargar](https://github.com/FIWAREZone/Curso_FIWARE/blob/master/postman/FIWARE%20Zone%20Course.postman_collection.json) (botón derecho -> Guardar enlace como...)
 
-6. Importar los dos ficheros contenidos en el zip
-![Importar Collection](https://github.com/danvilmot/IoT_Course/blob/master/postman/files/import_collection.jpg)
+3. Descargar el [environment](FIWARE%20Zone%20Course%20Enviroment%20Template.postman_environment.json) de variable de entorno necesarias para que funcione el "Collection". [Descargar](https://github.com/FIWAREZone/Curso_FIWARE/blob/master/postman/FIWARE%20Zone%20Course%20Enviroment%20Template.postman_environment.json) (botón derecho -> Guardar enlace como...)
 
-8. Configurar las credenciales: user, password, service y subservice (Service Path) que se darán en cada sesión.
+4. En este punto debemos tener Postman instalado y dos ficheros con extensión ".json" en nuestro PC.
+
+5. Abrir Postman.
+
+6. Importar la colección "FIWARE Zone Course.postman_collection.json"
+
+![Importar Collection](https://github.com/FIWAREZone/Curso_FIWARE/blob/master/postman/files/import_collection.jpg)
+
+7. Importar el environment "FIWARE Zone Course Enviroment Template.postman_environment.json"
+
+![Importar Environment](https://github.com/FIWAREZone/Curso_FIWARE/blob/master/postman/files/import_environment.jpg)
+
+8. Configurar las credenciales: user, password, service y subservice (Service Path) que serán indicados durante la realización del curso de formación.
+
 
 
 ## Variables de entorno
 
-Una vez hayamos importado tanto la colección de peticiones como el entorno (los dos ficheros descargados en el punto anterior) 
-
-Las variables de entorno contienen parámetros que se aplican a todas las colecciones pero, que para facilitar cambiarlas todas a las vez, se han hecho variables de entorno, como por ejemplo la URL del servidor. Es necesario modificar las variables de entorno con los parámetros correspondientes:
+Las variables de entorno facilitan la gestión y modificación de los parámetros que se usan en las colecciones, como por ejemplo la URL del servidor en el que se encuentra instalada la plataforma FIWARE. Por ello, es necesario modificar las variables de entorno con los parámetros correspondientes:
 
 | Parametro         |descripción   												|
 | :-----------------|:--------------											|
@@ -32,8 +44,7 @@ Las variables de entorno contienen parámetros que se aplican a todas las colecc
 | token 			| Token de autenticación de usuario dinámico 				|
 | host 				| URL del servidor, es decir, del Orion Context Broker 		|
 | host_iota 				| URL del servicio IoT Agent 		|
-| iota_port 				| URL del servicio IoT Agent		|
-| UL_apikey 				| Apikey para el envío de datos por IoTA con protocolo ultralight 		|
+| iota_port 				| Puerto del servicio IoT Agent		|
+| UL_apikey 				| Apikey para el envío de datos por IoTA con protocolo Ultralight 2.0 		|
 | JSON_apikey 			| Apikey para el envío de datos por IoTA con protocolo JSON 		|
 | device_ID 				| Identificador de dispositivo		|
-
