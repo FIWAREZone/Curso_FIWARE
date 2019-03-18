@@ -10,7 +10,7 @@ Para la realización del curso es conveniente disponer de los siguientes conocim
 
 ## FIWARE
 
-El objetivo de este sesión es comprender como funciona FIWARE, las distintas partes que lo componen y aprender el uso sencillo de la API NGSI como punto de partida para empezar a usar estas herramientas.
+El objetivo de esta sesión es comprender como funciona FIWARE, las distintas partes que lo componen y aprender el uso sencillo de la API NGSI como punto de partida para empezar a usar estas herramientas.
 
 
 # Configuración del entorno
@@ -20,7 +20,7 @@ En esta sección repasaremos como instalar y configurar los programas necesarios
 
 ## Instalación de Postman
 
-Para hacer pruebas con la API de FIWARE será necesario disponer de una herramienta que permita hacer peticiones HTTP e interactuar con ésta. En este caso, recomendamos la herramienta Postman, que permite gestionar las colecciones de peticiones, por lo que será muy sencillo realizar las operaciones necesarias con la colección predefinida que podréis descargar en este mismo repositorio.
+Para hacer pruebas con la API de FIWARE será necesario disponer de una herramienta que permita hacer peticiones HTTP e interactuar con ésta. En este caso, recomendamos la herramienta Postman ya que permite gestionar las colecciones de peticiones, por lo que será muy sencillo realizar las operaciones necesarias con la colección predefinida que podréis descargar en este mismo repositorio.
 
 [Descargar](https://www.getpostman.com)
 
