@@ -13,7 +13,7 @@ Postman nos permite definir un catálogo de peticiones ([Collection](FIWARE%20Zo
 
 2. Descargar el [Collection](FIWARE%20Zone%20Course.postman_collection.json) de peticiones que se van a utilizar en la práctica. [Descargar](https://github.com/FIWAREZone/Curso_FIWARE/blob/master/postman/FIWARE%20Zone%20Course.postman_collection.json) (botón derecho -> Guardar enlace como...)
 
-3. Descargar el [environment](FIWARE%20Zone%20Course%20Enviroment%20Template.postman_environment.json) de variable de entorno necesarias para que funcione el "Collection". [Descargar](https://github.com/FIWAREZone/Curso_FIWARE/blob/master/postman/FIWARE%20Zone%20Course%20Enviroment%20Template.postman_environment.json) (botón derecho -> Guardar enlace como...)
+3. Descargar el [Environment](FIWARE%20Zone%20Course%20Enviroment%20Template.postman_environment.json) de variable de entorno necesarias para que funcione el "Collection". [Descargar](https://github.com/FIWAREZone/Curso_FIWARE/blob/master/postman/FIWARE%20Zone%20Course%20Enviroment%20Template.postman_environment.json) (botón derecho -> Guardar enlace como...)
 
 4. En este punto debemos tener Postman instalado y dos ficheros con extensión ".json" en nuestro PC.
 
