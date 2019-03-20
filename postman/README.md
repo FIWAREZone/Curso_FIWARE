@@ -11,7 +11,7 @@ Postman nos permite definir un catálogo de peticiones (Collection) y variables 
 
 1. Descargar [Postman](https://www.getpostman.com/) e instalar.
 
-2. Descargar el fichero ZIP con el Collection (peticiones) y el Environment (variables) que se van a utilizar en la práctica. [Descargar](https://github.com/FIWAREZone/Curso_FIWARE/blob/master/postman/Postman_Collection%26Environment.zip) (hacer click sobre la opción Download)
+2. Descargar el fichero ZIP con el Collection (peticiones) y el Environment (variables) que se van a utilizar en la práctica. [Enlace al fichero ZIP](https://github.com/FIWAREZone/Curso_FIWARE/blob/master/postman/Postman_Collection%26Environment.zip) (hacer click sobre la opción Download)
 
 ![Descargar ZIP](https://github.com/FIWAREZone/Curso_FIWARE/blob/master/postman/files/download_zip.jpg)
 
